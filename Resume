@@ -2,72 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph Core - Resume</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #0077b6;
-            --text-color: #333;
-            --bg-color: #f4f4f4;
-            --dark-bg: #1e1e1e;
-            --dark-text: #f4f4f4;
-            --accent-color: #ff6f61;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 80%;
-            max-width: 900px;
-            margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .theme-toggle {
-            cursor: pointer;
-            font-size: 20px;
-            position: absolute;
-            right: 20px;
-            top: 20px;
-        }
-
-        body.dark-theme {
-            background-color: var(--dark-bg);
-            color: var(--dark-text);
-        }
-
-        body.dark-theme .container {
-            background-color: #292929;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button class="theme-toggle">Toggle Theme</button>
-    <div class="container">
-        <h1>Joseph Core - Resume</h1>
+   
+<div id="page">
+    <div class="photo-and-name">
+        <img src="profile.png" class="photo" alt="Profile Picture">
+        <div class="contact-info-box">
+            <h1 class="name">Joseph Core</h1>
+            <br>
+            <h3 class="job-title">Finance & Venture Capital Enthusiast</h3>
+            <p class="contact-details">Phone: 703-517-9031 &nbsp; - &nbsp; Email: josephrcore@outlook.com</p>
+        </div>
     </div>
-    <script>
-        document.querySelector('.theme-toggle').addEventListener('click', () => {
-            document.body.classList.toggle('dark-theme');
-        });
-    </script>
-</body>
-</html><!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div id="objective">
+        <h3>Objective</h3>
+        <p>
+            Graduate student-athlete at the University of San Francisco with a strong background in finance, private equity, and venture capital. Seeking opportunities to leverage analytical and interpersonal skills in investment analysis and deal execution.
+        </p>
+    </div>
+    <div id="education">
+        <h3>Education</h3>
+        <table>
+            <tr>
+                <td>2023 - 2025</td>
+                <td><b>University of San Francisco</b>: M.S. in Innovation & Entrepreneurship</td>
+            </tr>
+            <tr>
+                <td>2019 - 2023</td>
+                <td><b>William & Mary</b>: B.B.A. in Finance, Raymond A. Mason School of Business</td>
+            </tr>
+        </table>
+    </div>
+    <div id="work">
+        <h3>Experience</h3>
+        <table>
+            <tr>
+                <td>Oct 2024 - Present</td>
+                <td><b>Westlake Securities</b>: Equity Research Intern (Remote)</td>
+            </tr>
+            <tr>
+                <td>Summer 2023</td>
+                <td><b>Commercial Real Estate Brokerage & Development Internships</b> (Washington, D.C.)</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td><b>Investment Sales Intern</b>: Cold calling, emailing, and deal sourcing for commercial real estate</td>
+            </tr>
+        </table>
+    </div>
+    <div id="skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>Financial Modeling & Valuation</li>
+            <li>Investment & Market Research</li>
+            <li>Private Equity & Venture Capital Analysis</li>
+            <li>Salesforce & CRM Tools</li>
+        </ul>
+    </div>
+    <div id="extracurricular">
+        <h3>Extracurricular Activities</h3>
+        <ul>
+            <li>Division I Soccer Player at William & Mary and the University of San Francisco</li>
+            <li>Active member of the Center for Excellence in Finance at William & Mary</li>
+        </ul>
+    </div>
+</div>
+
 </body>
 </html>
-
